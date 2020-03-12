@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
    List <String> items;
    Button btnAdd;
    EditText etItem;
-   RecyclerView rvItems;
+   RecyclerView rvItems; 
    ItemsAdapter itemsAdapter;
 
     @Override
@@ -130,4 +130,5 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
 }
